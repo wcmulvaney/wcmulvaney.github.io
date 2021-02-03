@@ -75,19 +75,24 @@ body{
 
 
 #documents{
+	display: inline-block;
 	position: absolute;
-	width: 350px;
+	width: 100%;
 	height: 500px;
-	top: 20%;
-	left: 0%;
+	top: 15%;
+	left: 5%;
 
+}
+
+#documents iframe
+{
+	display: inline-block;
 }
 
 
 #documents a {
-	display: block;
+	display: inline-block;
 	text-decoration: none;
-	display: inline;
 	font-family: sans-serif;
 	padding: 8px;
 	color: white;
